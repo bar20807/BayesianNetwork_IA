@@ -5,7 +5,7 @@ Bayesian Network Library es una librería que puede ser utilizada para calcular 
 ## Proceso de instalación
 pip install BayesianClass
 
-##Cómo utilizar
+## Cómo utilizar
 Para utilizar dicha librería, se debe de utilizar el archivo main.py, en él se debe de establecer la red bayesiana que se quiere evaluar, cómo también, cada una de sus probabilidades para que sean cálculadas.
 
 ## Task 1.4
