@@ -11,6 +11,7 @@ A = Node("A", [True, False])
 B = Node("B", [True, False], [A])
 C = Node("C", [True, False], [A])
 D = Node("D", [True, False], [B, C])
+E = Node("E", [True, False], [D])
 
 A.add_cpt_entry((), {True: 0.5, False: 0.5})
 
@@ -24,6 +25,7 @@ D.add_cpt_entry((True, True), {True: 0.99, False: 0.01})
 D.add_cpt_entry((True, False), {True: 0.9, False: 0.1})
 D.add_cpt_entry((False, True), {True: 0.9, False: 0.1})
 D.add_cpt_entry((False, False), {True: 0.0, False: 1.0})
+E.add_cpt_entry((False, False), {True: 0.0, False: 1.0})
 
 network = BayesianNetwork([A, B, C, D])
 
