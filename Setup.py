@@ -11,7 +11,7 @@ URL = '' #Modificar con vuestros datos
 
 LICENSE = 'MIT' #Tipo de licencia
 DESCRIPTION = 'Librería para realizar cálculo de probabilidades de una red bayesiana' #Descripción corta
-LONG_DESCRIPTION = ("" / "README.md").read_text(encoding='utf-8') #Referencia al documento README con una descripción más elaborada
+LONG_DESCRIPTION = ("/BayesianNetwork" / "README.md").read_text(encoding='utf-8') #Referencia al documento README con una descripción más elaborada
 LONG_DESC_TYPE = "text/markdown"
 
 
