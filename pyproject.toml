@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "BayesianNetwork"
-version = "0.0.8"
+version = "0.0.9"
 description = "This package serves as a Bayesian Network builder"
 authors = ["José Rodrigo Barrera García"]
 license = "MIT"
