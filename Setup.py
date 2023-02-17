@@ -7,7 +7,7 @@ HERE = pathlib.Path(__file__).parent
 VERSION = {}
 with open(HERE / "BayesianNetwork" / "version.py") as fp:
     exec(fp.read(), VERSION)
-PACKAGE_NAME = "cool_bayesian_networks"
+PACKAGE_NAME = "BayesianNetwork"
 AUTHOR = "José Rodrigo Barrera García"
 AUTHOR_EMAIL = "bar20807@uvg.edu.gt"
 URL = "https://github.com/bar20807/BayesianNetwork_IA"
