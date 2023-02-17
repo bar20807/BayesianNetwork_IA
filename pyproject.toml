@@ -2,7 +2,7 @@
 name = "BayesianNetwork"
 version = "0.0.0"
 description = "This package serves as a Bayesian Network builder"
-authors = "José Rodrigo Barrera García"
+authors = ["José Rodrigo Barrera García"]
 license = "MIT"
 readme = "README.md"
 
