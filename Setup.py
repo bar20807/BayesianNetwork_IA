@@ -1,3 +1,10 @@
+"""
+    Universidad del Valle de Guatemala
+    José Rodrigo Barrera García
+    20807
+    Laboratorio 2 - Redes Bayesianas
+"""
+
 import pathlib
 from setuptools import find_packages, setup
 from BayesianNetwork import __version__
