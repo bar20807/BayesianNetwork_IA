@@ -29,7 +29,7 @@ E.add_cpt_entry((False, False), {True: 0.0, False: 1.0})
 
 network = BayesianNetwork([A, B, C, D])
 
-# Cálculo de la probabilidad conjunta de un evento
+# Cálculo de la probabilidad conjunta de un evento, el cual se crea mediante un diccionario booleano
 
 event = {
     "A": True,
