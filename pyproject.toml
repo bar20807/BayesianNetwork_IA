@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "BayesianNetwork"
+name = "BayesianNetwork_IA"
 version = "0.0.0"
 description = "This package serves as a Bayesian Network builder"
 authors = ["José Rodrigo Barrera García"]
